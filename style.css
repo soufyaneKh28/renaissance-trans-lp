@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  padding: 50px 0px;
+  padding: 25px 0px;
 }
 
 a {
@@ -45,6 +45,10 @@ a {
   border-radius: 5px;
 
   font-weight: bold;
+}
+
+.imagesHeader {
+  margin-top:20px ;
 }
 .formContainer {
   max-width: 400px;
@@ -100,7 +104,9 @@ form button:hover {
     padding-left: 10px;
     padding-right: 10px;
   }
-
+  .imagesHeader {
+    margin-bottom: 20px;
+  }
   .text {
     width: 100% !important;
     display: flex;
@@ -252,7 +258,7 @@ element.style {
 }
 .cta .text {
  width: 50%;
- margin-left: 20px;
+ margin-left: 50px;
 }
 .cta p {
   font-size: 16px;
@@ -286,13 +292,16 @@ element.style {
   .cta .text p {
     max-width: 100% !important;
   }
+
+ 
 }
 
 .services-container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  margin: 40px 50px ;
-  
+  max-width: 900px;
+  margin: 40px 0px;
   gap: 30px;
 }
 
@@ -318,8 +327,88 @@ element.style {
 .service h4 {
   bottom: 10px;
   left: 50%;
-  margin-bottom: ;
+  
   font-size: 22px;
   transform: translateX(-50%);
   color: #fff;
+}
+
+@media (max-width: 991px) {
+
+  .service{
+    width: 45%;
+  }
+ }
+
+ @media (max-width: 576px) {
+  .service{
+    width: 90%;
+  }
+ }
+
+
+ @media (max-width: 768px) {
+
+  .trust-container {
+    flex-direction: column;
+  }
+  }
+
+
+
+  .carousel a {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0px 10px;
+  }
+  .carousel-item {
+    display: block;
+    margin: 0px auto;
+  }
+
+  .carousel a span {
+    width: 10px;
+  }
+
+  /* styles.css */
+.carousel-item img {
+  width: 18%;
+  margin: 0px 5px;
+  /* Add other styles if necessary */
+}
+
+.cta-2 div {
+ border: 1px solid #c7686a;
+ padding: 25px 20px;
+ margin: 10px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ border-radius: 5px;
+}
+
+.cta-2 div h5 {
+  max-width: 290px;
+  text-align: center;
+}
+
+.cta-2 div a {
+  padding: 5px 40px;
+
+}
+
+@media (max-width: 576px) { 
+  .cta-2 {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+  }
+
+  .cta-2 div{
+    width: 80%;
+  }
 }
