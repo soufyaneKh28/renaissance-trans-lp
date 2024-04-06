@@ -13,11 +13,11 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.container {
+.container1 {
   padding: 25px 0px;
 }
 
-a {
+.a {
   text-decoration: none;
 }
 
@@ -32,6 +32,7 @@ a {
   border-radius: 5px;
   margin-left: 0px;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .btnnew2 {
@@ -43,7 +44,7 @@ a {
   padding: 10px 50px;
   margin: 10px;
   border-radius: 5px;
-
+  text-decoration: none;
   font-weight: bold;
 }
 
@@ -99,7 +100,7 @@ form button:hover {
 }
 
 @media (max-width: 768px) {
-  .container {
+  .container1 {
     flex-direction: column;
     padding-left: 10px;
     padding-right: 10px;
@@ -356,30 +357,8 @@ element.style {
 
 
 
-  .carousel a {
-    background-color: black;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    top: 50%;
-    transform: translateY(-50%);
-    margin: 0px 10px;
-  }
-  .carousel-item {
-    display: block;
-    margin: 0px auto;
-  }
 
-  .carousel a span {
-    width: 10px;
-  }
 
-  /* styles.css */
-.carousel-item img {
-  width: 18%;
-  margin: 0px 5px;
-  /* Add other styles if necessary */
-}
 
 .cta-2 div {
  border: 1px solid #c7686a;
